@@ -1,7 +1,12 @@
 # Task automation
 # Basic test targets
-test:
-	@echo "Running tests..."
+.PHONY: run test build
 
-hello:
-	@echo "Hello, World!"
+run:
+	go run cmd/blog-server/main.go
+
+build:
+	go build -o bin/blog-server cmd/blog-server/main.go
+
+test:
+	go test ./...

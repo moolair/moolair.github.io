@@ -1,1 +1,10 @@
 # Git ignore file
+# Firebase
+firebase-key.json
+
+# Environment variables
+.env*
+
+# Build output
+/bin
+/public

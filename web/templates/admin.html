@@ -1,1 +1,60 @@
-<html>Admin Panel Template</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Admin Panel</h1>
+    </header>
+    <main>
+        <form id="post-form">
+            <div>
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+            <div>
+                <label for="content">Content:</label>
+                <textarea id="content" name="content" required></textarea>
+            </div>
+            <button type="submit">Create Post</button>
+        </form>
+    </main>
+    <script>
+        document.getElementById('post-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const token = localStorage.getItem('authToken'); // Firebase에서 받은 토큰
+
+            try {
+                const response = await fetch('/admin/post', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${token}`
+                    },
+                    body: JSON.stringify({
+                        title: document.getElementById('title').value,
+                        content: document.getElementById('content').value
+                    })
+                });
+
+                const result = await response.json();
+                if (response.ok) {
+                    alert('Post created successfully!');
+                    document.getElementById('post-form').reset();
+                } else {
+                    throw new Error(result.error || 'Failed to create post');
+                }
+            } catch (error) {
+                alert('Error: ' + error.message);
+                console.error('Error details:', error);
+            }
+        });
+    </script>
+</body>
+
+</html>
