@@ -13,8 +13,9 @@ jobs:
       - name: Build static files
         run: |
           mkdir -p public
-          cp -r web/static/* public/
+          cp -r web/static public/
           cp web/templates/index.html public/index.html
+          sed -i 's/href="static/href="\/moolair.github.io\/static/g' public/index.html
           cp web/templates/login.html public/login.html
           cp web/templates/admin.html public/admin.html
 
