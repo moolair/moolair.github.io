@@ -12,7 +12,7 @@ If you have any questions about the modifications I made to the template, feel f
 # License
 MIT License
 
-Copyright (c) 2025 moolair
+Copyright (c) 2025 Youngjin Jo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
