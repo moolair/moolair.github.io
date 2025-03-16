@@ -1,35 +1,32 @@
-name: Deploy Jekyll site
+name: Jekyll site CI
 
 on:
   push:
-    branches:
-      - main  # Adjust if your default branch is different
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3.1  # Adjust to your Jekyll version
-
-      - name: Install Jekyll and dependencies
-        run: |
-          gem install jekyll bundler
-          bundle install || true  # Ignore errors if no Gemfile exists
-
-      - name: Build Jekyll site
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: .  # Use root as the source
-          destination: ./_site
-
-      - name: Deploy to GitHub Pages
-        uses: actions/upload-artifact@v3
-        with:
-          path: ./_site
+    - uses: actions/checkout@v4
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1'
+        bundler-cache: true
+    - uses: actions/jekyll-build-pages@v1
+      with:
+        source: ./
+        destination: ./_site
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: github-pages
+        path: ./_site
+        if-no-files-found: error
