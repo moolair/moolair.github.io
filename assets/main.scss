@@ -1,0 +1,15 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import 'modern-resume-theme';
+// css를 바꾸고 싶은 부분은 이 뒤로 추가하면 됌.
+.into-text-1 {
+    margin-top: 40px;
+  }
+.container {
+    margin-top: 50px;
+}
+h3 {
+    padding-bottom: 20px;
+}

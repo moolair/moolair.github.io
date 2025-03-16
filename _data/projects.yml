@@ -1,0 +1,14 @@
+
+- layout: left
+  company: <b style='font-size:22px'>SimpleBank</b>
+  link: https://www.hermontfleet.com/
+  job_title: Fullstack Development
+  dates: 2024 ~ 진행중
+  description: | # this will include new lines to allow paragraphs
+    <Mark>Golang</Mark> <Mark>PostgreSQL</Mark> <Mark>Gin</Mark> <Mark>gRPC</Mark> <Mark>Redis</Mark> <Mark>Docker</Mark> <Mark>Kubernetes</Mark> <Mark>AWS</Mark> <Mark>JWT</Mark><br />
+    <br />
+    Built a Golang-based banking service with REST and gRPC APIs, enabling secure account management and money transfers. <br />
+    <br />
+    Built a backend web service for a simple bank. <br />
+    <br />
+    

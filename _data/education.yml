@@ -1,0 +1,11 @@
+- layout: left
+  company: <b style='font-size:22px'>BCIT<br>New Media Design and Web Development</b>
+  dates: 2016-10 ~ 2017-10
+  description: | # this will include new lines to allow paragraphs
+    Studied New Media Design and Web Development at BCIT. Learned about web design, web development, and user experience design. Graduated with a diploma.
+
+- layout: left
+  company: <b style='font-size:21px'>UBC<br>Computer Engineering</b>
+  dates: 2012-09 ~ 2016-04
+  description: | # this will include new lines to allow paragraphs
+    Studied Computer Engineering at UBC. Learned about computer architecture, operating systems, and programming languages. But, did not graduate to pursue my dream of becoming a developer.

@@ -1,2 +1,69 @@
-name: My Blog
-title: null
+# Site
+repository: moolair/moolair.github.io
+favicon: images/favicon.ico
+
+# Personal info
+name: Youngjin Jo
+title: Hybrid IT Suppot and Software Developer
+       
+email: youngjinjo@outlook.com
+thread: www.threads.net/@wwyoungjin
+
+# Dark Mode
+darkmode: never
+
+# Social links
+github_username: moolair
+instagram_username: wwyoungjin
+
+# youtube_username: channel/UC9gV3AO0ulWIbKqg9FYDSnA
+
+# About Section
+# about_title: About Me
+about_profile_image: images/IMG_2372.jpg
+about_content: 
+  Hello, I'm <strong>Youngjin Jo</strong>, a developer with <strong>7 years of experience</strong> who values 
+  <mark>continuous learning</mark>, <mark>communication</mark>, <mark>collaboration</mark>, and <mark>critical thinking</mark> the most.
+
+  I enjoy creating services that make a difference in the world through 
+  <strong>new learning experiences</strong> and <strong>proactive communication</strong>.
+
+  While technology is important, I always strive to understand 
+  <strong>what users and the company truly need</strong> and apply those insights to the services I develop.
+
+  현재 위치&nbsp; 📍 &nbsp;Vancouver, Canada<br />
+  근무 형태&nbsp; 🧑🏻‍💻 &nbsp;Remote (8:30 ~ 4:30 PST)<br />
+  주력 기술&nbsp; 🕹️ &nbsp;AWS, Golang, React Native, Mobile, Firebase, Node.js, Gin<br />
+  <br /><br />
+  Update 2025-03-16
+
+# Experience Section
+# experience_title: Experience
+
+# Projects Section
+# projects_title: Projects
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: Side Project
+# more_content: | # this will include new lines to allow paragraphs
+#   Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#    - Rock climbing
+#    - Gaming
+#    - Knitting
+#    - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

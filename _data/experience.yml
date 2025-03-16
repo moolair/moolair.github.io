@@ -1,0 +1,8 @@
+- layout: left
+  company: 
+  job_title: 
+  dates: 2024-01 ~ Present
+  description: | # this will include new lines to allow paragraphs
+    <br>
+    <br>
+    <br>
