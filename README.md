@@ -1,22 +1,10 @@
-# My Blog
+# modern-resume
+Check Out My Updated Resume!
 
-Welcome to my blog! Visit the [main page](https://moolair.github.io/index.html) to see the posts.
+Come take a look at [my awesome resume](https://moolair.github.io/)!
 
-## About
-This is a personal blog built with Firebase and GitHub Pages.
+If you're interested, feel free to reach out to me at youngjinjo@outlook.com 😊
 
-##WIP 현재 프로젝트 구조
-project-name/
-├── cmd/
-│   ├── blog-server/
-│   │   ├── main.go         # Firebase와 API 서버 초기화
-├── internal/
-│   ├── blog/
-│   │   ├── handler.go      # /posts 핸들러 구현
-├── pkg/
-│   ├── db/
-│   │   ├── firebase.go     # Firebase 초기화 및 설정
-├── web/
-│   ├── templates/
-│   ├── static/
-└── go.mod                  # Go 모듈 설정
+I built this using Ruby and Jekyll with a static template, inspired by [sproogen](https://github.com/sproogen)'s [modern-resume-theme](https://github.com/sproogen/modern-resume-theme) project.
+
+If you have any questions about the modifications I made to the template, feel free to open an issue.
