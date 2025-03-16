@@ -4,3 +4,4 @@
 _site
 Gemfile.lock
 *.code-workspace
+_data/side_projects.yml

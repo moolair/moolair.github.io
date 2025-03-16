@@ -1,0 +1,35 @@
+name: Deploy Jekyll site
+
+on:
+  push:
+    branches:
+      - main  # Adjust if your default branch is different
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1  # Adjust to your Jekyll version
+
+      - name: Install Jekyll and dependencies
+        run: |
+          gem install jekyll bundler
+          bundle install || true  # Ignore errors if no Gemfile exists
+
+      - name: Build Jekyll site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: .  # Use root as the source
+          destination: ./_site
+
+      - name: Deploy to GitHub Pages
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./_site
