@@ -16,11 +16,9 @@ jobs:
           bundler-cache: true
       - uses: actions/jekyll-build-pages@v1
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: github-pages
-          path: _site/
-          if-no-files-found: error
+          path: _site
 
   deploy:
     needs: build
@@ -32,6 +30,9 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Checkout repository  # <-- Added this
+        uses: actions/checkout@v4
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
