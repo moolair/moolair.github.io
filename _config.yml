@@ -1,3 +1,10 @@
+title: Youngjin Jo's Resume
+description: Youngjin Jo's Resume
+theme: jekyll-theme-primer
+baseurl: ""
+url: ""
+source: .
+
 # Site
 repository: moolair/moolair.github.io
 favicon: images/favicon.ico
