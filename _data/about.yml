@@ -1,0 +1,28 @@
+- layout: left
+  profile_image: /images/me.jpg
+  description: |
+    Hello, I'm <strong>Youngjin Jo</strong>, a developer with <strong>7 years of experience</strong> <br />
+    who values <mark>continuous learning</mark> <mark>communication</mark> <mark>collaboration</mark> <mark>critical thinking</mark> the most.<br />
+    <br />
+    I enjoy creating services that make a difference in the world through 
+    <strong>new learning experiences</strong> and <strong>proactive communication</strong>.<br />
+    <br />
+    While technology is important, I always strive to understand 
+    <strong>what users and the company truly need</strong> and apply those insights to the services I develop.<br />
+    <br />
+    <table class="info-table">
+      <tr>
+        <td class="info-label"><strong>Current location</strong></td>
+        <td class="info-content">Vancouver, Canada</td>
+      </tr>
+      <tr>
+        <td class="info-label"><strong>Work type </strong></td>
+        <td class="info-content">Remote (8:30 ~ 4:30 PST)</td>
+      </tr>
+      <tr>
+        <td class="info-label"><strong>Primary skills</strong></td>
+        <td class="info-content">React Native, Golang, Firebase, Node.js, Gin, AWS, Docker</td>
+      </tr>
+    </table>
+    <br />
+    Update 2025-03-23

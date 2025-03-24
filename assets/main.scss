@@ -3,13 +3,60 @@
 ---
 
 @import 'modern-resume-theme';
-// css를 바꾸고 싶은 부분은 이 뒤로 추가하면 됌.
-.into-text-1 {
-    margin-top: 40px;
-  }
-.container {
-    margin-top: 50px;
+
+/* 헤더 오른쪽 영역 스타일링 */
+.header-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
+
+/* 이메일 부분 */
+.header-right p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+/* 아이콘 정렬 */
+.header-right .icons {
+  display: flex;
+  margin: 0;
+  justify-content: flex-end;
+}
+
+.header-right .icons li {
+  margin-left: 10px;
+}
+
+/* 나머지 컨텐츠 왼쪽 정렬 */
+.page-content {
+  text-align: left !important;
+}
+
+.page-content p, 
+.page-content div, 
+.page-content span, 
+.page-content li {
+  text-align: left !important;
+}
+
+/* 프로필 이미지 스타일링 */
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto 20px;
+}
+
+/* 기본 레이아웃 간격 조정 */
+.container {
+  margin-top: 50px;
+}
+
 h3 {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }

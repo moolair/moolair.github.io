@@ -1,0 +1,23 @@
+<div class="container about-container">
+  <h3>{{ site.about_title | default: "About Me" }}</h3>
+  {% for about in site.data.about %}
+    <div class="row clearfix">
+      <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+        <span class="profile-img" data-image="{{ about.profile_image | relative_url }}"></span>
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+        {{ about.description | strip | markdownify }}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var img = document.querySelector('.profile-img');
+    if (img) {
+      var imgUrl = img.getAttribute('data-image');
+      img.style.backgroundImage = 'url(' + imgUrl + ')';
+    }
+  });
+</script>
