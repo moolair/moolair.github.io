@@ -13,12 +13,12 @@ name: Youngjin Jo
 title: Hybrid IT Suppot and Software Developer
        
 email: youngjinjo@outlook.com
-thread: www.threads.net/@wwyoungjin
 
 # Dark Mode
 darkmode: never
 
 # Social links
+# threads_username: wwyoungjin  # threads is not supported by the theme yet
 github_username: moolair
 instagram_username: wwyoungjin
 
@@ -26,22 +26,7 @@ instagram_username: wwyoungjin
 
 # About Section
 # about_title: About Me
-about_profile_image: images/me.jpg
-about_content: 
-  Hello, I'm <strong>Youngjin Jo</strong>, a developer with <strong>7 years of experience</strong> <br />
-  who values <mark>continuous learning</mark> <mark>communication</mark> <mark>collaboration</mark> <mark>critical thinking</mark> the most.<br />
-  <br />
-  I enjoy creating services that make a difference in the world through 
-  <strong>new learning experiences</strong> and <strong>proactive communication</strong>.<br />
-  <br />
-  While technology is important, I always strive to understand 
-  <strong>what users and the company truly need</strong> and apply those insights to the services I develop.<br />
-  <br />
-  Current location&nbsp; 📍 &nbsp;Vancouver, Canada<br />
-  Work type&nbsp; 🧑🏻‍💻 &nbsp;Remote (8:30 ~ 4:30 PST)<br />
-  Primary skills&nbsp; 🕹️ &nbsp;AWS, Golang, React Native, Mobile, Firebase, Node.js, Gin<br />
-  <br />
-  Update 2025-03-16
+
 
 # Experience Section
 # experience_title: Experience

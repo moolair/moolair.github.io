@@ -1,8 +1,16 @@
 - layout: left
-  company: 
-  job_title: 
+  company: ALF Software Inc.
+  job_title: Hybrid IT support and Software Developer
   dates: 2024-01 ~ Present
-  description: | # this will include new lines to allow paragraphs
-    <br>
-    <br>
-    <br>
+  description: |
+    <ul>
+      <li>Drove service delivery and improved IT services and products for over 370 corporations and companies, resulting in an 80% increase in new client acquisition and a 30% reduction in average response time for resolving IT issues.</li>
+      <li>Automated migrating old system to new platform using Golang or Python, resulting in a 50% reduction in migration time and a 25% decrease in errors during the transition phase.</li>
+      <li>Optimized legacy system written in PHP and Pascal/Delphi</li>
+      <li>Migrated a website from an on-premises to AWS EBS attached to an EC2 instance.</li>
+      <li>Migrated local MSSQL to AWS RDS.</li>
+      <li>Taught myself Python and Selenium for migrating old forum to Jira</li>
+      <li>Utilized Bitbucket, GitHub, and SourceTree for source control.</li>
+      <li>Used Atlassian software for project management and ticketing system.</li>
+      <li>Worked with Scrum agile framework every week at a technical level with senior staff to maintain and update applications.</li>
+    </ul>

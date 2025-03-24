@@ -5,7 +5,7 @@
   job_title: Backend Development
   dates: 2024-12 ~ 2025-01
   description: | # this will include new lines to allow paragraphs
-    <Mark>Golang</Mark> <Mark>PostgreSQL</Mark> <Mark>Gin</Mark> <Mark>gRPC</Mark> <Mark>Redis</Mark> <Mark>Docker</Mark> <Mark>Kubernetes</Mark> <Mark>AWS</Mark> <Mark>JWT</Mark><br />
+    <Mark>Golang</Mark> <Mark>PostgreSQL</Mark> <Mark>Gin</Mark> <Mark>gRPC</Mark> <Mark>Redis</Mark> <Mark>Docker</Mark> <Mark>AWS</Mark> <Mark>JWT</Mark><br />
     <br />
     Built a Golang-based banking service with REST and gRPC APIs, enabling secure account management and money transfers. <br />
     <br />
